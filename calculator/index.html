@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+ <body background='image/tumblr_static_oblojka2-1200x545_c.jpg' >
+  <div class="center">
+    <style>
+ .center {
+    width: 350px; /* Ширина элемента в пикселах */
+    padding: 50px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    margin-top: 400px;
+  
+  text-decoration: none;
+  color:#061634;
+  text-transform: uppercase;
+  
+ 
+
+  border-width: 2px;
+  border-color: #061634;
+  border-style: solid;
+  border-radius: 50px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+
+  margin-bottom: 13px;
+color:blue;
+  background-color: yellow;
+   }
+
+ </style>
+  
+  <div id="wrap">
+  <form action="" name="barbershop-form">
+    <fieldset>
+
+      <legend>Парикмахерская</legend>
+      <label>Вид стрижки</label>
+      <br/>
+      <input type="radio" name="selectedbarber" value="0" /> Женская стрижка
+      <br/>
+      <input type="radio" name="selectedbarber" value="0" />  Мужская стрижка
+      <br>
+      <input type="radio" name="selectedbarber"  value="0" /> Детская стрижка
+      <br/>
+      <br/>
+      
+      <label>Причёска</label>
+
+      <select id="filling" name='filling'>
+       <option value="women">Женская</option>
+        <option value="kare">Каре(80грн)</option>
+        <option value="paz">Паж(70грн)</option>
+        <option value="bob">Боб(65грн)</option>
+        <option value="shapka">Шапочка(80грн)</option>
+        <option value="piksi">Пикси(100грн)</option>
+        <option value="men">Мужская</option>
+        <option value="klassek">Классическая(50грн)</option>
+        <option value="sport">Спортивная(45грн)</option>
+        <option value="military">Милитари(40грн) </option>
+        <option value="roman">Романтическая(60грн)</option>
+        <option value="granz">Гранж(30грн)</option>
+        <option value="children">Детская</option>
+        <option value="kos">Косы(90грн)</option>
+        <option value="gylka">Две гульки(30грн)</option>
+        <option value="kosichki">Косички с нитками(180грн)</option>
+      </select>
+      <br/>
+      <p>
+        <label for='includecandles' class="inlinelabel">Покраска волос 100 грн </label>
+        <input type="checkbox" id="includecandles" name='includecandles'value="100" />
+      </p>
+       
+        <label >Обрезать кончики</label>
+        <select id="filling" name='filling'>
+       <option value="women">2см (5грн)</option>
+        <option value="kare">5см (15грн)</option>
+        <option value="paz">10см (20грн)</option>
+        <option value="paz">20см (40грн)</option>
+    </select>
+      
+     <div id="barbershop"></div>
+
+    </fieldset>
+    </form>
+  </div>
+  <script src = "script.js"></script>
+ </body>
+</html>
